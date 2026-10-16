@@ -617,6 +617,80 @@
 
             </div>
         </section>
+
+        <section>
+            <div>
+                <div>
+                    <div>
+                        <div>
+                        
+                            <div>
+                                <h2><span>Formulario</span></h2>
+                            </div>
+
+                            <form action="#pedidos" method="POST">
+                                <div>
+                               
+                                    <div>
+                                        <div>
+                                            <input type="text" id="nombre" placeholder="Nombre Completo" required class="form-control">
+                                            <label for="nombre">Introduzca su nombre*</label>
+                                        </div>
+                                    </div>
+
+
+                                    <div>
+                                        <div>
+                                            <input type="text" id="RTN" name="dni" required maxlength="16" placeholder="Introduzca RTN" class="form-control">
+                                            <label for="RTN">RTN *</label>
+                                        </div>
+                                    </div>
+
+                                    <div>
+                                        <div>
+                                            <input type="email" id="correoAfiliado" name="correo" required placeholder="cliente@correo.com" class="form-control">
+                                            <label for="correoAfiliado">Correo Electrónico:*</label>
+                                        </div>
+                                    </div>
+
+                                    <div>
+                                        <div>
+                                            <input type="tel" id="telefonoHonduras" name="telefono" required pattern="\+504 [0-9]{4}-[0-9]{4}" placeholder="+504 9999-0000" class="form-control">
+                                            <label for="telefonoHonduras">Teléfono:*</label>  
+                                        </div>
+                                    </div>
+
+                                    <div class="form-floating">
+                                        <div>
+                                            <select id="entrega" required class="form-select">
+                                                <option value="" disabled selected>Seleccione departamento de entrega...</option>
+                                                <option value="FM">Francisco Morazán</option>
+                                                <option value="Comayagua">Comayagua</option>
+                                                <option value="Cortes">Cortés</option>
+                                                <option value="LaPaz">La Paz</option>
+                                                <option value="Atlantida">Atlántida</option>
+                                                <option value="Islaas">Islas de la Bahía</option>
+                                            </select>
+                                            <label for="entrega">Departamento *</label>
+                                        </div>
+                                    </div>
+
+                                    <div>
+                                        <button type="submit" class="btn-primario">
+                                            <i></i> Enviar Cotización
+                                        </button>
+                                        <button type="reset" class="btn-secundario">
+                                            <i></i>Limpiar Formulario
+                                        </button>
+                                    </div>
+                                </div>
+                            </form>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
     </main>
         <footer>
             <div>
